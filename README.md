@@ -1,5 +1,3 @@
-# Sistema-de-gerenciamento-Agricula-C-
-
 # 🌾 AgroSistema
 
 Sistema desktop para gerenciamento de operações do agronegócio, desenvolvido em **C# (.NET Framework 4.7.2)** com interface **Windows Forms** e banco de dados **MySQL**.
@@ -33,5 +31,29 @@ Já inclui dados iniciais com 5 culturas pré-cadastradas (Soja, Milho, Cana-de-
 
 ## Como Executar
 
-1. Clone o repositório
-2. Crie o banco de dados executando o script SQL:
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/Gabrielhrq-ol/Sistema-para-Agronegocio.git
+   ```
+
+2. **Crie o banco de dados** executando o script SQL no MySQL:
+   ```
+   AgroSistema/Database/ScriptParaCriarBanco.sql
+   ```
+
+3. **Configure a conexão** com o banco em `AgroSistema/Repositories/Conexao.cs`, ajustando host, usuário e senha do MySQL.
+
+4. **Abra o projeto** no Visual Studio abrindo o arquivo `AgroSistema.slnx`.
+
+5. **Execute** pressionando `F5` ou clicando em **Iniciar**.
+
+## Estrutura do Projeto
+
+```
+AgroSistema/
+├── Forms/          # Telas da aplicação (WinForms)
+├── Models/         # Entidades do sistema
+├── Repositories/   # Acesso ao banco de dados
+├── Database/       # Script SQL de criação do banco
+└── Program.cs      # Ponto de entrada da aplicação
+```
