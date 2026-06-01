@@ -32,9 +32,6 @@ Já inclui dados iniciais com 5 culturas pré-cadastradas (Soja, Milho, Cana-de-
 ## Como Executar
 
 1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/Gabrielhrq-ol/Sistema-para-Agronegocio.git
-   ```
 
 2. **Crie o banco de dados** executando o script SQL no MySQL:
    ```
