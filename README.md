@@ -1,11 +1,11 @@
 🌾 AgroSistema
 Sistema desktop para gerenciamento de operações do agronegócio, desenvolvido em C# (.NET Framework 4.7.2) com interface Windows Forms e banco de dados MySQL.
 
-Sobre o Projeto
+📋 Sobre o Projeto
 O AgroSistema é uma aplicação de gestão voltada ao agronegócio brasileiro, permitindo o controle centralizado de produtores rurais, fazendas, funcionários, culturas agrícolas e colheitas.
 O sistema foi desenvolvido como projeto acadêmico em grupo de 5 integrantes, com divisão de responsabilidades por módulos. A arquitetura adota separação em camadas: Models, Repositories e Forms.
 
-Minha Contribuição
+👨‍💻 Minha Contribuição
 Fui responsável pelo desenvolvimento completo do módulo de Produtores, que inclui:
 
 CRUD completo (cadastro, edição, exclusão e listagem)
@@ -15,7 +15,7 @@ Proteção de integridade referencial (impede exclusão de produtor com fazendas
 Integração com o banco de dados via padrão Repository usando Dapper
 
 
-Funcionalidades do Sistema
+⚙️ Funcionalidades do Sistema
 
 Produtores — Cadastro e gerenciamento de produtores rurais com validação de CPF
 Fazendas — Registro de fazendas com localização (cidade/estado) e área em hectares, vinculadas a um produtor
@@ -24,17 +24,20 @@ Culturas — Cadastro de culturas agrícolas (soja, milho, café, etc.) com tipo
 Colheitas — Registro de plantios e colheitas com data, quantidade em toneladas e observações
 
 
-Banco de Dados
+🗄️ Banco de Dados
 MySQL com as seguintes tabelas: Produtor, Fazenda, Cultura, Funcionario, Colheita.
 O script de criação está em AgroSistema/Database/ScriptParaCriarBanco.sql e já inclui 5 culturas pré-cadastradas (Soja, Milho, Cana-de-açúcar, Café e Arroz).
 
-Tecnologias
+🛠️ Tecnologias
 
 C# / .NET Framework 4.7.2
 Windows Forms (WinForms)
 MySQL + MySql.Data (Connector/NET)
+Dapper (micro-ORM)
+Visual Studio
 
-Como Executar
+
+🚀 Como Executar
 
 Clone o repositório
 Crie o banco de dados executando o script SQL no MySQL:
@@ -46,7 +49,7 @@ Abra o projeto no Visual Studio pelo arquivo AgroSistema.slnx
 Execute pressionando F5 ou clicando em Iniciar
 
 
-Estrutura do Projeto
+📁 Estrutura do Projeto
 AgroSistema/
 ├── Forms/          # Telas da aplicação (WinForms)
 ├── Models/         # Entidades do sistema
@@ -54,5 +57,5 @@ AgroSistema/
 ├── Database/       # Script SQL de criação do banco
 └── Program.cs      # Ponto de entrada da aplicação
 
-Equipe
+👥 Equipe
 Projeto desenvolvido em grupo de 5 integrantes como atividade acadêmica do curso de Sistemas de Informação — UNIARA
